@@ -42,8 +42,6 @@
 
 /* 2nd Section */
 .Scnd-section {
-  width: 1600px;
-  height: 7335px;
   background-position: center;
 }
 
@@ -75,13 +73,96 @@
   padding-top: 16px;
 }
 
-.Scnd-title-image{
+.Scnd-title-image {
   text-align: center;
   padding-top: 48px;
 }
 
 /* Third Section */
 .Third-Section{
+  background-position: center;
+  display: flex;
+}
+.thrd-bg-image {
   background-image: url('../resources/Vectorrr.png');
-  
+  background-repeat: no-repeat;
+  background-size:auto;
+  height: 600px;
+  width: 1320px;
+  background-position: center;
+}
+.third-title{
+  color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+letter-spacing: 7.04px;
+padding-top: 126px;
+padding-left: 126px;
+}
+.third-para{
+  color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+padding-top: 24px;
+padding-left: 126px;
+}
+.third-button{
+  color: #FFF;
+  background: none;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+padding: 0;
+border: none;
+margin-left: 158px;
+margin-top: 48px;
+}
+.two-zero{
+ text-align: right;
+ padding-top: 68.11px;
+ padding-right: 138px;
+ margin-bottom: 67.23px;
+
+}
+/* fourth section */
+.fourth-section{
+ height: 482px;
+ width: 1320px;
+ background-color: rgb(224, 211, 211);
+ margin-top: 120px;
+}
+#place{
+  color: red;
+}
+#date{
+  color: red;
+}
+#time{
+color: red;
+}
+
+.forth-title{
+  padding-top: 100px;
+  text-align: center;
+  padding-left: 385px;
+  padding-right: 386px;
+}
+.fourth-button{
+  /* background-color: #f00; */
+  text-align: center;
+  margin-top:  64px;
+  margin-left: 608px;
+  /* margin-right: 609px; */
+  border: 0;
+  color: white;
+  background-color: red;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+
 }
